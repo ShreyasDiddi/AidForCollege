@@ -1,0 +1,48 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:gravity="center"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.a6studios.aid4college.StudentProfile">
+
+
+    <TableRow android:gravity="center">
+        <TextView
+            android:text="Roll No :"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="right"/>
+
+        <TextView
+            android:text="16B81A05P4"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_height="wrap_content"
+            android:gravity="left"/>
+    </TableRow>
+
+    <TableRow android:gravity="center">
+        <TextView
+            android:text="Branch :"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="right"/>
+
+        <TextView
+            android:text="CSE - D"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimaryDark"
+
+            android:layout_height="wrap_content"
+            android:gravity="left"/>
+    </TableRow>
+
+
+
+</TableLayout>

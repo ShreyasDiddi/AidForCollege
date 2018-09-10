@@ -1,0 +1,58 @@
+{
+  "project_info": {
+    "project_number": "656617876781",
+    "firebase_url": "https://s6-aid4college.firebaseio.com",
+    "project_id": "s6-aid4college",
+    "storage_bucket": "s6-aid4college.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:656617876781:android:5a41ba2511f0743e",
+        "android_client_info": {
+          "package_name": "com.a6studios.aid4college"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "656617876781-7ueqff0i20j2sl5iuro1raub6e7k681o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.a6studios.aid4college",
+            "certificate_hash": "55d59bc04f10d47567c3fdd48bd2c9904075ee2f"
+          }
+        },
+        {
+          "client_id": "656617876781-v7tjqjadbvale7scog19megfalfn0q8o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDF2lzzylCeLVPOvvsM3oMD1eR2yB3DxDA"
+        },
+        {
+          "current_key": "AIzaSyBUPXLDTfgOsMFRbF_Fw7wLC_-9uN9sV-A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "656617876781-v7tjqjadbvale7scog19megfalfn0q8o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

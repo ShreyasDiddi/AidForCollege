@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nav_timetable"
+        android:title="Time Table"
+        android:checkable="true"
+        android:onClick="itemSelected"
+        android:icon="@drawable/ic_time_table"/>
+    <item
+        android:id="@+id/nav_bus"
+        android:checkable="true"
+        android:icon="@drawable/ic_bus"
+        android:onClick="itemSelected"
+        android:title="Bus Routes" />
+    <item android:id="@+id/nav_notes"
+        android:title="Notes"
+        android:checkable="true"
+        android:onClick="itemSelected"
+        android:icon="@drawable/ic_notes"/>
+    <item android:id="@+id/nav_logout"
+        android:title="Log Out"
+        android:checkable="true"
+        android:onClick="itemSelected"
+        android:icon="@drawable/ic_log"/>
+</menu>

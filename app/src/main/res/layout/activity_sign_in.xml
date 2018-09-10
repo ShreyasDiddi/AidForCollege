@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorPrimaryDark"
+    android:id="@+id/sign_in_RLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.a6studios.aid4college.SignIn">
+    <ImageView
+        android:layout_width="450dp"
+        android:layout_height="450dp"
+        android:layout_above="@id/textView2"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:src="@mipmap/ic_launcher"/>
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="57dp"
+        android:layout_above="@id/sign_in_3p"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:text="@string/user_sign_in"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/tw__composer_white"/>
+
+    <EditText
+        android:id="@+id/sign_in_email"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_above="@+id/sign_in_password"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_margin="15dp"
+        android:background="@drawable/roundrect"
+        android:ems="10"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:textColor="#ffffff"
+        android:hint="@string/email_id"
+        android:inputType="textEmailAddress"
+        android:singleLine="true"/>
+
+    <EditText
+        android:id="@+id/sign_in_password"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/roundrect"
+        android:layout_above="@id/sign_in_button"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:hint="@string/password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/sign_in_button"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:background="@drawable/roundrect2"
+        android:layout_width="match_parent"
+        android:layout_margin="40dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/common_signin_button_text" />
+
+    <LinearLayout
+        android:id="@+id/sign_in_3p"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/sign_in_email"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/sign_in_gmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_google"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"/>
+
+        <ImageView
+            android:id="@+id/sign_in_facebook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_facebook"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"/>
+
+        <ImageView
+            android:id="@+id/sign_in_twitter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_twitter"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"/>
+    </LinearLayout>
+
+</RelativeLayout>

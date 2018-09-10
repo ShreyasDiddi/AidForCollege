@@ -1,0 +1,20 @@
+<resources xmlns:android="http://schemas.android.com/tools">
+    <string name="app_name">Aid4College</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="com.twitter.sdk.android.CONSUMER_KEY">Q3yzTxzLTvONmqc3hA1jHsRw</string>
+    <string name="com.twitter.sdk.android.CONSUMER_SECRET">XZNFMcux3O1yveoYGM3Tn8xl1CeBebvg7oQVb9QbHEP2C99bdg</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="email_id">Email ID</string>
+    <string name="password">Password</string>
+    <string name="button">Button</string>
+    <string name="register">Register</string>
+    <string name="name">Name</string>
+    <string name="user_sign_in">User Sign In</string>
+    <string name="reenter_passwor">Reenter Passwor</string>
+    <string name="reenter_password">Reenter Password</string>
+</resources>
